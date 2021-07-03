@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    vertical-align: inline-block;
+}
+
+.image {
+    flex-basis: 20%;
+    float: left;
+}
+
+.name {
+    float: center;
+    text-align: center;
+}
+
+.contacts {
+    float: right; 
+    text-align: right;
+}
