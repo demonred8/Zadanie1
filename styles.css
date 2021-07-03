@@ -1,8 +1,6 @@
 .container {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    vertical-align: inline-block;
+    justify-content: space-between;
 }
 
 .image {
@@ -13,9 +11,22 @@
 .name {
     float: center;
     text-align: center;
+    vertical-align: bottom;
+    align-self: flex-end;
 }
 
 .contacts {
     float: right; 
     text-align: right;
+}
+
+hr:not(.main_hr) {
+    width: 95%;
+}
+
+.content {
+    display: flex;
+    flex-direction: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
