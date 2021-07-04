@@ -34,12 +34,12 @@ hr:not(.main_hr) {
 }
 
 /* Line 59 */
-.cv1 .theme:nth-of-type(2) .text:nth-of-type(1) br:nth-of-type(3) {
+.cv1 .text:first-of-type br:nth-of-type(3) {
     color: green;
 } 
 
 /* Line 119 */
-.cv1 .skills tr:nth-of-type(2) td:nth-of-type(1) {
+.cv1 .skills tr:nth-of-type(2) td:first-of-type {
     color: green;
 }
 
@@ -49,17 +49,17 @@ hr:not(.main_hr) {
 }
 
 /* Line 184 */
-hr:not(.cv1):not(.cv2) {
+p:not(.cv1)p:not(.cv2) {
     color: green;
 }
 
 /* Line 227 */
 .cv2 .theme:nth-of-type(2) .text:first-of-type em:first-of-type {
-    color: green;
+    color: orange;
 }
 
 /* Line 287 */
-.cv2 .text:nth-of-type(3) em:first-of-type {
+.cv2 .text:last-of-type em:first-of-type {
     color: green;
 }
 
