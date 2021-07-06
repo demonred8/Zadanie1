@@ -1,69 +1,99 @@
+body {
+    background: rgb(236, 236, 236);
+    padding: 5px;
+}
+
 .container {
-    display: flex;
-    justify-content: space-between;
+    display: inline;
 }
 
 .image {
-    flex: flex-start;
+    width: 15%;
+    float: left;
 }
 
 .name {
-    text-align: center;
-    align-self: flex-end;
+    width: 25%;
+    line-height: 50%;
+    padding-top: 80px;
+}
+.name p {
+    font-size: 24px;
 }
 
 .contacts {
     text-align: right;
-    flex-basis: 250px;
-}
-
-hr:not(.main_hr) {
-    width: 99%;
 }
 
 .content {
-    padding-left: 40px;
+    display: inline-block;
     padding-right: 40px;
+    font-size: 20px;
 }
 
-/* Zadanie*/
-
-/* Line 37 */
-.cv1 .theme:first-of-type h3 {
-    color: green;
+.content> h2:first-of-type {
+    height: 180px;
 }
 
-/* Line 59 */
-.cv1 .text:first-of-type br:nth-of-type(3) {
-    color: green;
-} 
-
-/* Line 119 */
-.cv1 .skills tr:nth-of-type(2) td:first-of-type {
-    color: green;
+.content section:nth-of-type(2) h2 {
+    height: 700px;
 }
 
-/* Line 159 */
-.cv1 .theme:last-of-type .text em:first-of-type {
-    color: green;
+.cv2 .content section:nth-of-type(2) h2 {
+    height: 350px;
 }
 
-/* Line 184 */
-main> hr:not(.cv1):not(.cv2) {
-    color: green;
+.cv1 .content section:nth-of-type(3) h2 {
+    height: 70px;
 }
 
-/* Line 227 */
-.cv2 .theme:nth-of-type(2) .text:first-of-type em:first-of-type {
-    color: green;
+.cv2 .content section:nth-of-type(3) h2 {
+    height: 800px;
 }
 
-/* Line 287 */
-.cv2 .text:last-of-type em:first-of-type {
-    color: green;
+.cv1 .content section:nth-of-type(4) h2 {
+    height: 350px;
 }
 
-/* Line 309 */
-.cv2 .theme:last-child li:nth-of-type(5) {
-    color: green;
+.cv2 .content section:nth-of-type(4) h2 {
+    height: 200px;
+}
+
+.content span {
+    text-align: left;
+}
+
+
+hr:not(.main_hr) {
+    width: 95%;
+    color: orange;
+}
+
+.content {
+    display: inline-block;
+}
+
+.content .text {
+    padding-top: 10px;
+}
+
+.content h2 {
+    padding-left: 40px;
+    width: 15%;
+    float: left;
+    color: orange;
+}
+
+.content section {
+    width: 100%;
+}
+
+.skills {
+    width: 80%;
+}
+
+.cv2 .theme ul {
+    max-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
 }
